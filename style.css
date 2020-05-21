@@ -1,0 +1,98 @@
+*{
+margin:0;
+padding:0;
+}
+body{
+background-image:url(bright.JPEG);
+background-repeat: repeat;
+background-size: cover;
+
+}
+h1{
+color:white;
+text-align: center;
+forn-style: italic;
+}
+label{
+color:white;
+text-align: center;
+forn-style: italic;
+font-size: 20px;
+}
+#ch{
+color:white;
+text-align: center;
+forn-style: italic;
+font-size: 20px;
+}
+#ma{
+color:white;
+text-align: center;
+forn-style: italic;
+font-size: 20px;
+}
+
+.reg{
+margin: auto;
+width: 50%;
+background-color: rgb(0,0,0,0.5);
+padding: 15px;
+}
+.buttons{
+padding: 20px;
+padding-bottom: 15px;
+}
+#signup{
+width: 200px;
+outline: 0;
+padding: 5px;
+font-size: 18px;
+font-style: italic;
+}
+#sign{
+width: 200px;
+outline: 0;
+padding: 5px;
+float: right;
+font-size: 18px;
+font-style: italic;
+}
+#reg{
+margin: auto;
+width: 50%;
+}
+#name{
+width: 300px;
+padding: 5px;
+border: none;
+outline: 0;
+border-radius: 5px;
+border: 3px solid #9fabb6;
+}
+#text{
+background:none;
+border: 3px solid #9fabb6;
+padding: 5px;
+border-radius: 5px;
+}
+#sub{
+width: 300px;
+padding: 5px;
+border: none;
+outline: 0;
+border-radius: 5px;
+border: 3px solid #9fabb6;
+background-color: green;
+color:white;
+font-size: 18px;
+font-style: italic;
+}
+#sign:hover{
+background-color:#6b87a0;
+}
+#signup:hover{
+background-color:#6b87a0;
+}
+#sub:hover{
+background-color:#6b87a0;
+}

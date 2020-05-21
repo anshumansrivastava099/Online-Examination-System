@@ -1,0 +1,37 @@
+
+import javax.servlet.*;
+import javax.servlet.http.*;
+import java.io.*;
+
+
+public class freezeAh extends HttpServlet
+{
+
+   public void doGet(HttpServletRequest req, HttpServletResponse res)
+   throws IOException , ServletException  
+   {
+	  
+     res.setContentType("text/html");
+	  PrintWriter pw=res.getWriter();
+	  String s3=req.getParameter("b1");
+	  String s1=req.getParameter("t1");
+	    String s2=req.getParameter("a1");
+	
+	  pw.println("<html>");
+	  pw.println("<body>");
+	  pw.println("<center>");
+	  pw.println("<h1>");
+	  pw.println("The Freezeh which you select is:<input type=\"hidden\" name=\"b1\" value='"+s3+"'>");
+	  pw.println("<br>");
+	   pw.println("The Mobilhe which you select is:<input type=\"hidden\" name=\"a1\" value='"+s2+"'>");
+	  pw.println("<br>");
+	   pw.println("The Tvh which you select is:<input type=\"hidden\" name=\"t1\" value='"+s1+"'>");
+	  pw.println("<br>");
+	 
+	 
+	  pw.println("<input type=\"submit\" value=\"OK\">");
+	  pw.println("</body>");
+	  pw.println("</html>");
+	  
+	  }
+	  }

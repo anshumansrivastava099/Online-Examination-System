@@ -1,0 +1,39 @@
+import javax.servlet.*;
+import javax.servlet.http.*;
+import java.io.*;
+
+
+public class freezeAck extends HttpServlet
+{
+
+   public void doGet(HttpServletRequest req, HttpServletResponse res)
+   throws IOException , ServletException  
+   {
+	  
+     res.setContentType("text/html");
+	  PrintWriter pw=res.getWriter();
+	  String s3=req.getParameter("b1");
+	  String s1=req.getParameter("t1");
+	    String s2=req.getParameter("a1");
+	
+	  pw.println("<html>");
+	  pw.println("<body>");
+	  pw.println("<center>");
+	  pw.println("<h1>");
+	  Cookie c = new Cookie("b1", s3);
+            res.addCookie(c);
+
+	   Cookie[] cookies = req.getCookies();
+        for (int i = 0; i < cookies.length; i++) {
+            Cookie c1 = cookies[i];
+            String b2 = c1.getName();
+            String s4= c1.getValue();
+            pw.println(" Select quantity is" + b2 + " = " + s4);
+      
+		}
+	  pw.println("<input type=\"submit\" value=\"OK\">");
+	  pw.println("</body>");
+	  pw.println("</html>");
+	  
+	  }
+	  }

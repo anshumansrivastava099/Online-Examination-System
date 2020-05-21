@@ -1,0 +1,312 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Bootstrap css-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+     integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+
+     <!--Font Awesome-->
+     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css" integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
+    crossorigin="anonymous">
+
+     <!--google font-->
+     <link href="https://fonts.googleapis.com/css?family=Ubuntu" rel="stylesheet">
+
+     <!--custom css-->
+     <link href="css/style.css" rel="stylesheet">
+
+     
+    <title>Welcome to World Best Online Examination System</title>
+</head>
+<body  >
+    <!--Start Navigation Bar-->
+    <nav class="navbar navbar-expand-sm navbar-dark bg-dark fixed-top">
+        <a href="index.html" class="navbar-brand">Online E-Institute</a>
+
+        <span class="navbar-text">Learn and Implement</span>
+        <button type="button" class="navbar-toggler" data-toggler="collaspe"
+        data-target="#">
+        <span class="navbar-toggler-icon"></span>
+    
+    </button>
+    <div class="collaspe navbar-collaspe" id="myMenu">
+        <ul class="navbar-nav pl-5 custom-nav">
+            <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Services</a></li>
+            <li class="nav-item"><a href="#" class="nav-link">Contact</a></li>
+            <li class="nav-item nav-link" id='clock' mt-2></li>
+         </ul>
+         
+        </div>
+    </nav> <!--End Navigation Bar-->
+
+    <!--Start header Jumbotron-->
+    <header class="jumbotron back-image" style="background-image:url(images/Banner.jpeg);">
+    <div class="text-center" style="margin-top: 130px;">
+        <h1 class="text-uppercase text-danger font-width-bold">Welcome to World Best Online Examination System</h1>
+        <p class="font-italic font-width-bold">Learn and Implement</p>
+        <div>
+            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#loginModal">Student Login</button>
+            <button type="button" class="btn btn-danger" data-toggle="modal" data-target="#signupModal">Teacher Login</button>
+          </div>
+        
+</div>
+</header> <!--End header Jumbotron-->
+
+<!--Start Services-->
+<div class="container text-center border-bottom">
+    <h2>Our Services</h2>
+    <div class="row mt-4">
+        <div class="col-sm-4 mb-4">
+            <a href=""><i class="fab fa-android fa-10x text-success"></i></a>
+            <h4 class="mt-4">Android Application</h4>
+        </div>
+        
+            <div class="col-sm-4 mb-4">
+                <a href=""><i class="fas fa-desktop fa-10x text-primary"></i></a>
+                <h4 class="mt-4">Web Application</h4>
+        </div>
+        
+        <div class="col-sm-4 mb-4">
+                    <a href=""><i class="fas fa-database fa-10x text-info"></i></a>
+                    <h4 class="mt-4">database</h4>
+         </div>
+                
+    </div>
+</div><!--End Service Section-->
+
+<!--start our courses-->
+<div class="container pt-5">
+    <h2 class="text-center">Our Courses</h2>
+    <div class="row mt-4">
+        <div class="col-lg-6 mb-4">
+            <img src="images/course1.jpeg" alt="" class="img-fluid">
+        </div>
+        <div class="col-lg-6">
+            <h2 class="text-center">Learn Java Programming</h2>
+            <p>Our core Java programming tutorial is designed for students and working professionals. Java is an object-oriented, class-based, concurrent, secured and general-purpose computer-programming language.
+                 It is a widely used robust technology
+                 Java was developed by Sun Microsystems (which is now the subsidiary of Oracle) in the year 1995. James Gosling is known as the father of Java. Before Java, its name was Oak.
+                 Since Oak was already a registered company, so James Gosling and his team changed the Oak name to Java.</p>
+                 <p>Standalone applications are also known as desktop applications or window-based applications. These are traditional software that we need to install on every machine. Examples of standalone application are Media player, antivirus, etc. AWT and Swing are used in Java for creating standalone applications.
+                    An application that runs on the server side and creates a dynamic page is called a web application. Currently, Servlet, JSP, Struts, Spring, Hibernate, JSF, etc. technologies are used for creating web applications in Java.
+                </p>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-lg-6 mb-4">
+            <h2 class="text-center">Real World Project</h2>
+            <p>Our core Java programming tutorial is designed for students and working professionals. Java is an object-oriented, class-based, concurrent, secured and general-purpose computer-programming language.
+                 It is a widely used robust technology
+                 Java was developed by Sun Microsystems (which is now the subsidiary of Oracle) in the year 1995. James Gosling is known as the father of Java. Before Java, its name was Oak.
+                 Since Oak was already a registered company, so James Gosling and his team changed the Oak name to Java.</p>
+                 <p>Standalone applications are also known as desktop applications or window-based applications. These are traditional software that we need to install on every machine. Examples of standalone application are Media player, antivirus, etc. AWT and Swing are used in Java for creating standalone applications.
+                    An application that runs on the server side and creates a dynamic page is called a web application. Currently, Servlet, JSP, Struts, Spring, Hibernate, JSF, etc. technologies are used for creating web applications in Java.
+                </p>
+        </div>
+        <div class="col-lg-6 ">
+            <img src="images/course2.jpeg" alt="" class="img-fluid mb-4">
+        </div>
+        
+    </div>
+</div><!--End Course-->
+
+<!--Start Team-->
+<div class="jumbotron bg-danger">
+    <div class="container">
+        <h2 class="text-center text-white">Team</h2>
+        <div class="row mt-5">
+            <div class="col-lg-3 col-sm-6">
+                <div class="card mb-2 shadow-lg">
+                    <div class="card-body text-center">
+                        <img src="images/profile.jpg" alt="" class="img-fluid" style="border-radius: 100px;">
+                        <h4 class="card-title">Anshuman Srivastava</h4>
+                        <p class="card-text">Done b.tech from RKGIT, having an experience of 1 year in
+                            Web Development Course. Instructor of the institute followed by leading the role in CWT.
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="card mb-2 shadow-lg">
+                    <div class="card-body text-center">
+                        <img src="images/ashish.jpg" alt="" class="img-fluid" style="border-radius: 100px;">
+                        <h4 class="card-title">Ashish Gangwar</h4>
+                        <p class="card-text">Done b.tech from RKGIT, having an experience of 1 year in
+                            Java Core and Advanced Course. Instructor of the institute followed by leading the role in CWT and also the mentor for students.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="card mb-2 shadow-lg">
+                    <div class="card-body text-center">
+                        <img src="images/pranshu.jpg" alt="" class="img-fluid" style="border-radius: 100px;">
+                        <h4 class="card-title">Pranshu Srivastava</h4>
+                        <p class="card-text">Done b.tech from RKGIT, having an experience of 1 year in
+                            Database Management System. Instructor of the institute followed by leading the role in CWT .</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-3 col-sm-6">
+                <div class="card mb-2 shadow-lg">
+                    <div class="card-body text-center">
+                        <img src="images/pardeep.jpg" alt="" class="img-fluid" style="border-radius: 100px;">
+                        <h4 class="card-title">Pardeep Kumar</h4>
+                        <p class="card-text">Done b.tech from RKGIT, having an experience of 1 year in
+                            Front-End Development. Instructor of the institute followed by leading the role in CWT and also the manager of all works related to money like fees.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!--end team section-->
+
+<!--Start Contact Us-->
+    <div class="container">
+        <h2 class="text-center">Contact Us</h2>
+        <div class="row">
+            <div class="col-md-8">
+                <form action="#" method="POST">
+                    <input type="text" class="form-control" name='name' placeholder="Name"/><br/>
+                    <input type="text" class="form-control" name='phone' placeholder="Phone"/><br/>
+                    <input type="text" class="form-control" name='email' placeholder="E-mail"/><br/>
+                    <textarea class="form-control" name="text" placeholder="How can we help you?"
+                    style="height: 150px;"></textarea><br/>
+                    <input type="submit" class="btn btn-primary" value="Send"/><br/><br/>
+
+                </form>
+            </div>
+            <div class="col-md-4 text-center">
+                <strong>Headquarter</strong><br>
+                Cranium Web Technologies Pvt Ltd.<br>
+                Govindpuram<br>
+                Ghaziabad - 201013<br>
+                Phone: +918510932567<br>
+                <a href="#">www.anshdevsite.com</a><br>
+                <br><br>
+                <strong>New Delhi Branch</strong><br>
+                Cranium Web Technologies Pvt Ltd.<br>
+                Rohini<br>
+                New Delhi - 221001<br>
+                Phone: +9185109567<br>
+                <a href="#">www.anshdevsite.com</a><br>
+
+            </div>
+        </div>
+    </div><!--End Contact Us-->
+
+    <!--Start Footer-->
+    <footer class="container-fluid bg-dark text-white mt-5" style="border-top: 3px solid #DC3545;">
+        <div class="conatiner">
+            <div class="row py-3">
+                <div class="col-md-6">
+                    <div>
+                        <span>Follow Us:</span>
+                        <a href="https://www.facebook.com/Anshuman" target="_blank"><i class="fab fa-facebook-f px-3"></i></a>
+                        <a href="https://twitter.com/Anshuman" target="_blank"><i class="fab fa-twitter pr-3"></i></a>
+                        <a href="https://www.youtube.com/user/Anshuman" target="_blank"><i class="fab fa-youtube pr-3"></i></a>
+                        <a href="#" target="_blank"><i class="fab fa-google-plus-g pr-3"></i></a>
+                        <a href="#" target="_blank"><i class="fas fa-rss pr-3"></i></a>
+                        </div>
+                </div>
+           
+            <div class="col-md-6 text-right">
+                <small>Designed By<a href="#">onlineE-institute.com</a>&copy; 2020</small>
+            </div>
+        </div>
+    </div>
+    
+        </footer><!--footer End-->
+
+
+
+  
+
+ <!-- Login Modal -->
+<div class="modal fade" id="loginModal" tabindex="-1" role="dialog" aria-labelledby="loginModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            
+            <div class="modal-header">
+                <h5 class="modal-title" id="loginModal">Student Login</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+
+            <div class="modal-body">
+                <form  action="http://localhost:8080/examples/studentlogin.jsp" method="post">
+                    <div class="form-group">
+                        <label for="lusername">Username</label>
+                        <input type="name" class="form-control" id="luname" placeholder="Enter your username"
+                            name="Id">
+                    </div>
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password" class="form-control" id="lpassword" placeholder="Enter your password"
+                            name="Password">
+                    </div>
+                    
+
+                    <button type="submit" class="btn btn-danger mt-2" id="loginsubmit">Login</button>
+                </form>
+            </div>
+
+            <div class="modal-footer">
+                <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+
+<!-- SignUp Modal -->
+<div class="modal fade" id="signupModal" tabindex="-1" role="dialog" aria-labelledby="signupModal" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="signupModal">Teacher Login</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+  
+        <div class="modal-body">
+              <form method="post" action="http://localhost:8080/examples/teacherlogin.jsp">
+                  
+                <div class="form-group">
+                    <label for="lusername">Username</label>
+                    <input type="name" class="form-control" id="luname" placeholder="Enter your username"
+                        name="Id">
+                </div>
+                <div class="form-group">
+                    <label for="password">Password</label>
+                    <input type="password" class="form-control" id="lpassword" placeholder="Enter your password"
+                        name="Password">
+                </div>
+               
+                <button type="submit" class="btn btn-danger mt-2" id="loginsubmit">Login</button>              </form>
+          </div>
+  
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+
+   <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+     integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" 
+     integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+</body>
+</html>
